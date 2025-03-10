@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_permission">
+    <par_dashboard_permission action="INSERT_OR_UPDATE">
+        <can_read>true</can_read>
+        <can_share>true</can_share>
+        <can_write>true</can_write>
+        <dashboard display_value="Lessons Learned Workspace">00c5cc6ee2254e10d287bf86d86a06c2</dashboard>
+        <group display_value="Lessons learned Reviewers" name="Lessons learned Reviewers">2b00880f93254250df5f3ca47aba10e2</group>
+        <owner>false</owner>
+        <role/>
+        <sys_class_name>par_dashboard_permission</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 01:48:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>4c21cccf93254250df5f3ca47aba108f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>00c5cc6ee2254e10d287bf86d86a06c2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>par_dashboard_permission_4c21cccf93254250df5f3ca47aba108f</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 01:48:33</sys_updated_on>
+        <user/>
+    </par_dashboard_permission>
+</record_update>

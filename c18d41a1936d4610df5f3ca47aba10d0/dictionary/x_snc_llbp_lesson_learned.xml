@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="f7a9b30e93e1ca10df5f3ca47aba10bf" extends="task" label="Lessons Learned" max_length="40" name="x_snc_llbp_lesson_learned" text_index="true" type="collection">
+        <element label="Submitting Organization" max_length="32" name="submitting_organization" reference="x_snc_llbp_mission_directorate" type="reference"/>
+        <element label="Recommendations" max_length="500" name="recommendations" type="string"/>
+        <element label="Lesson(s) Learned" max_length="500" name="lesson_s_learned" type="string"/>
+        <element label="Subject" max_length="100" name="subject" type="string"/>
+        <element label="Recommendations" max_length="8000" name="recommendations_html" type="html"/>
+        <element label="Topic(s)" max_length="4000" name="topics" reference="x_snc_llbp_topic" type="glide_list"/>
+        <element label="Abstract" max_length="500" name="abstract" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priorit0" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Low" sequence="1" value="Low"/>
+                <element inactive_on_update="false" label="High" sequence="0" value="High"/>
+            </choice>
+        </element>
+        <element label="Driving Event" max_length="500" name="driving_event" type="string"/>
+    </element>
+</database>

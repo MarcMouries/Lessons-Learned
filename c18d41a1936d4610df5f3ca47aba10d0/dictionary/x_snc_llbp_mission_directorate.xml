@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2b0ca01e9369ca10df5f3ca47aba10cd" label="Mission Directorate" max_length="40" name="x_snc_llbp_mission_directorate" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Mission" max_length="95" name="mission" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Abbreviation" max_length="40" name="abbreviation" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Organization Name" max_length="41" name="organization_name" type="string"/>
+    </element>
+</database>

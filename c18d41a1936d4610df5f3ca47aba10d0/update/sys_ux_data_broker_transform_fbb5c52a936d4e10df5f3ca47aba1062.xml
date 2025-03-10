@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result>{ "displayValue": "ACL FAILURE: Possibly missing ACL for Data Resource"}</acl_failure_result>
+        <api_name>x_snc_llbp.GetTopicList</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description>Returns the list of topics for the lessons learned app</description>
+        <mutates_server_data>false</mutates_server_data>
+        <name>GetTopicList</name>
+        <output_schema/>
+        <private>false</private>
+        <props/>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    var recordList = [];
+    var topicRecord = new GlideRecord('x_snc_llbp_topic');
+    topicRecord.orderBy('description');
+
+    topicRecord.query();
+
+    while (topicRecord.next()) {
+        var recordObj = {
+            "id": topicRecord.getValue('sys_id'),
+            "label": topicRecord.getValue('description')
+        };
+        recordList.push(recordObj);
+    }
+
+    //var recordsJson = JSON.stringify(recordList, null, 4);
+    //gs.info(recordsJson);
+
+    return recordList;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-16 18:25:55</sys_created_on>
+        <sys_id>fbb5c52a936d4e10df5f3ca47aba1062</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>GetTopicList</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_fbb5c52a936d4e10df5f3ca47aba1062</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-16 18:30:39</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=fbb5c52a936d4e10df5f3ca47aba1062"/>
+</record_update>

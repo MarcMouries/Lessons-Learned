@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="reject">5e138c2a9c254e1063f076702c338ee3</declarative_action_assignment>
+        <predicate display_value="My Tasks">d2138c2ac7254e10a54ee6d919b775be</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-16 12:40:15</sys_created_on>
+        <sys_id>12138c2a8a254e108bf7cc844f14d2b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_12138c2a8a254e108bf7cc844f14d2b5</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-16 12:40:15</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

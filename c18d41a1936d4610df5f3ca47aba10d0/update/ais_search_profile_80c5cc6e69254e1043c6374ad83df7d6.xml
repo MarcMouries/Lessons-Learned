@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Lessons Learned Workspace</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>lessons-learned-workspace Search Profile</label>
+        <name>x_snc_llbp_ynwksx_search_profile</name>
+        <publish_id>d8fbb59b-ffff-41d6-9487-97fea7493732</publish_id>
+        <qna_model_id>bert-qa-model-1.1.6</qna_model_id>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-16 12:51:49</sys_created_on>
+        <sys_id>80c5cc6e69254e1043c6374ad83df7d6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>lessons-learned-workspace Search Profile</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>ais_search_profile_80c5cc6e69254e1043c6374ad83df7d6</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-16 14:12:00</sys_updated_on>
+    </ais_search_profile>
+</record_update>

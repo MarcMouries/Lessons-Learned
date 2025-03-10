@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="64b973c293e1ca10df5f3ca47aba10c5" sys_domain="global" table="x_snc_llbp_lesson_learned" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject</element>
+            <position>0</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 22:08:23</sys_created_on>
+            <sys_id>db8bb8da93e9ca10df5f3ca47aba1004</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 22:08:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>abstract</element>
+            <position>1</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 22:08:23</sys_created_on>
+            <sys_id>538bb8da93e9ca10df5f3ca47aba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 22:08:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>driving_event</element>
+            <position>2</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 22:08:23</sys_created_on>
+            <sys_id>d78bb8da93e9ca10df5f3ca47aba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 22:08:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lesson_s_learned</element>
+            <position>3</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 22:08:23</sys_created_on>
+            <sys_id>5f8bb8da93e9ca10df5f3ca47aba1005</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 22:08:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recommendations</element>
+            <position>4</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 22:08:23</sys_created_on>
+            <sys_id>d38bb8da93e9ca10df5f3ca47aba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 22:08:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>topics</element>
+            <position>5</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 22:08:23</sys_created_on>
+            <sys_id>5b8bb8da93e9ca10df5f3ca47aba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 22:08:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>submitting_organization</element>
+            <position>6</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 22:08:23</sys_created_on>
+            <sys_id>df8bb8da93e9ca10df5f3ca47aba1006</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 22:08:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>recommendations_html</element>
+            <position>7</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-18 11:28:55</sys_created_on>
+            <sys_id>9df5864793658250df5f3ca47aba10cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-18 11:28:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priorit0</element>
+            <position>8</position>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-18 17:15:37</sys_created_on>
+            <sys_id>c8559b0f93ed8250df5f3ca47aba101e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_llbp_lesson_learned" sys_domain="global" view="Default view">64b973c293e1ca10df5f3ca47aba10c5</sys_ui_section>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-18 17:15:37</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_llbp_lesson_learned</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-15 17:20:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>64b973c293e1ca10df5f3ca47aba10c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_llbp_lesson_learned</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+            <sys_update_name>sys_ui_section_64b973c293e1ca10df5f3ca47aba10c5</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-15 17:20:39</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

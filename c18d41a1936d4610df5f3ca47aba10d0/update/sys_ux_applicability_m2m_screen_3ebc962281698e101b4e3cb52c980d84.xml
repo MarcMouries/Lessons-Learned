@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">76bc9622df698e10a3f1fab5b3b55d8d</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">b6bc9622b1698e1096e066b2e96a3d84</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-16 23:51:29</sys_created_on>
+        <sys_id>3ebc962281698e101b4e3cb52c980d84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_3ebc962281698e101b4e3cb52c980d84</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-16 23:51:29</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

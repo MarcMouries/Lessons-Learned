@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "table": "x_snc_llbp_lesson_learned",
+    "sysId": "1b9c6a3e93a90250df5f3ca47aba1024",
+    "query": null,
+    "extraParams": null,
+    "views": null,
+    "selectedTabIndex": null,
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputSysId": "a07eda4b93298250df5f3ca47aba100b",
+        "inputTable": "x_snc_llbp_lesson_learned",
+        "view": "workspace-lessons-learned-workspace-0"
+    }
+}</macroponent_config>
+        <screen display_value="Lesson Learned Record Page">e9c580ae93254e10df5f3ca47aba1019</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>kate.flood</sys_created_by>
+        <sys_created_on>2024-04-18 16:34:41</sys_created_on>
+        <sys_id>2cfb0fc793ad8250df5f3ca47aba1059</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2cfb0fc793ad8250df5f3ca47aba1059</sys_update_name>
+        <sys_updated_by>kate.flood</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:53:15</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

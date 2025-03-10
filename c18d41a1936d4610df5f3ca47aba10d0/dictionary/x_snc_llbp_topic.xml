@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4eea98da93e5ca10df5f3ca47aba10d6" label="Topic" max_length="40" name="x_snc_llbp_topic" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Description" max_length="40" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Code" max_length="40" name="code" type="string"/>
+    </element>
+</database>

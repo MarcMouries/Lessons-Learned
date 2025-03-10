@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Search Page">da138c2abf254e107fd308f1b472e0d1</macroponent>
+        <name>Search result clicked</name>
+        <preset/>
+        <required_translations>[
+    
+]</required_translations>
+        <script><![CDATA[function handler({
+    api,
+    event,
+    imports
+}) {
+
+    const ACTION_NAME = event.payload.action.actionDispatch;
+
+    var table = event.payload.action.actionPayload.table;
+    var sysId = event.payload.action.actionPayload.sysId;
+
+    console.log("=Search result clicked =");
+    console.log("- table  = ", table);
+    console.log("- sysId  = ", sysId);
+    console.log("- action = ", ACTION_NAME);
+    console.log("- search = ", api.context.props.searchContextConfigId);
+    
+    if (ACTION_NAME !== 'NAVIGATION') return;
+
+    var route = 'home';
+    if (table == "x_snc_llbp_lesson_learned") {
+        route = "lesson-learned";
+    }
+
+    const fields = {
+        "sysId": event.payload.action.actionPayload.sysId
+    };
+
+    const params = {
+        "nav": "search",
+        "searchTerm": api.context.props.searchTerm,
+        "search": api.context.props.searchContextConfigId
+    };
+    
+    api.emit('NAV_ITEM_SELECTED', {
+         route,
+         fields,
+         params
+     });
+/*
+    var route = 'landing';
+    if (ACTION_NAME == 'NAVIGATION_CATALOG_KB_ARTICLE' || ACTION_NAME == 'GENIUS_NAVIGATION_CATALOG_KB_ARTICLE') {
+        route = "article";
+        const fields = {
+            "sysId": event.payload.action.actionPayload.sysId
+        };
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields
+        });
+    } else if (ACTION_NAME == 'NAVIGATION' && event.payload.action.actionPayload.url !== "") {
+        api.emit('NAV_ITEM_SELECTED', {
+            external: {
+                "url": event.payload.action.actionPayload.url
+            }
+        });
+    } else if (ACTION_NAME == 'NAVIGATION') {
+        var table = event.payload.action.actionPayload.table;
+        if (table == "kb_knowledge") {
+            route = "article";
+        } else if (table == "sc_cat_item" && event.payload.action.actionPayload.url == "") {
+            route = "catalog";
+        }
+        const fields = {
+            "sysId": event.payload.action.actionPayload.sysId
+        };
+        api.emit('NAV_ITEM_SELECTED', {
+            route,
+            fields
+        });
+    } else if (ACTION_NAME == 'GENIUS_NAVIGATION_CATALOG_EXTERNAL') {
+        api.emit('NAV_ITEM_SELECTED', {
+            external: {
+                "url": event.payload.action.actionPayload.url
+            }
+        });
+    } else return;
+    */
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-16 12:40:15</sys_created_on>
+        <sys_id>56138c2a5e254e1070465988c3fd6ac8</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Search result clicked</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_ux_client_script_56138c2a5e254e1070465988c3fd6ac8</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-17 02:31:45</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

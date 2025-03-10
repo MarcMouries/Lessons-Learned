@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_llbp_topic" version="2" view="workspace-lessons-learned-workspace-0">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>code</element>
+            <list_id display_value="x_snc_llbp_topic" element="NULL" name="x_snc_llbp_topic" parent="NULL" relationship="NULL" sys_domain="global" view="0cc5cc6e41254e1073dadce9c41ddebf">42c5c0ae93254e10df5f3ca47aba100b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-16 12:51:56</sys_created_on>
+            <sys_id>cac5c0ae93254e10df5f3ca47aba100b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-16 12:51:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_snc_llbp_topic" element="NULL" name="x_snc_llbp_topic" parent="NULL" relationship="NULL" sys_domain="global" view="0cc5cc6e41254e1073dadce9c41ddebf">42c5c0ae93254e10df5f3ca47aba100b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-16 12:51:56</sys_created_on>
+            <sys_id>cec5c0ae93254e10df5f3ca47aba100b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-16 12:51:56</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_llbp_topic</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>Marc.Mouries</sys_created_by>
+            <sys_created_on>2024-04-16 12:51:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>42c5c0ae93254e10df5f3ca47aba100b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_llbp_topic</sys_name>
+            <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_llbp_topic_workspace-lessons-learned-workspace-0</sys_update_name>
+            <sys_updated_by>Marc.Mouries</sys_updated_by>
+            <sys_updated_on>2024-04-16 12:51:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Lessons Learned Workspace 0" name="workspace-lessons-learned-workspace-0">0cc5cc6e41254e1073dadce9c41ddebf</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

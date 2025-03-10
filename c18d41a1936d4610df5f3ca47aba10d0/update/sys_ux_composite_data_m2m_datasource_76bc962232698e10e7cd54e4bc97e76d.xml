@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">b6bc9622c2698e10e1a347f90144bd6f</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">b6bc96223e698e10f3ed1c24aa85796c</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-16 23:51:30</sys_created_on>
+        <sys_id>76bc962232698e10e7cd54e4bc97e76d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_76bc962232698e10e7cd54e4bc97e76d</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-16 23:51:30</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

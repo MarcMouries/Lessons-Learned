@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <format/>
+        <height/>
+        <image>f8cb25f693a10250df5f3ca47aba1056</image>
+        <name>x_snc_llbp.lessons-learned-icon.svg</name>
+        <size_bytes>2017</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-17 14:55:53</sys_created_on>
+        <sys_id>739ba1be93a10250df5f3ca47aba10fa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_snc_llbp.lessons-learned-icon.svg</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>db_image_739ba1be93a10250df5f3ca47aba10fa</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-17 14:55:59</sys_updated_on>
+        <thumbnail/>
+        <width/>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>image</file_name>
+        <hash>70fe6e9bc98856587718c5f1d32e97df2fa293293c4b8f51bdf13b2881cfdff5</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>2017</size_bytes>
+        <size_compressed>833</size_compressed>
+        <state>available</state>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-17 14:55:58</sys_created_on>
+        <sys_id>f8cb25f693a10250df5f3ca47aba1056</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-04-17 14:55:59</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>739ba1be93a10250df5f3ca47aba10fa</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="f8cb25f693a10250df5f3ca47aba1056">f8cb25f693a10250df5f3ca47aba1056</sys_attachment>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-17 14:55:58</sys_created_on>
+        <sys_id>3ccb25f693a10250df5f3ca47aba1056</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>nVXbbts4EP0VQX2lxryIt9Z24X3Sog1QoIAf8hIIshwbUOzAVuMGi/57Z4ZS1nGyxqKQORQ51Mw5c6Gnn38+dNlTezhu97tZrkDmWbtr9qvt7n6W/+jXRcg/z6fHp/tsu5rlX+vn9nCn8mxV93Wxqx/aYS/DPbS0O87yTd8/fpxMTqcTnAzsD/cTLaWcoIk8e9q2p7/2P2e5zGSmLI98Pl216yM66Z+7dg5NdyzUP+tt1338IKVd1/WnX7yph831ev3p13SSjk8n6eN+2+Oqfnxsuy/f774d9qsfTX/3d7PfHaeTpJw220PTtVnT1UfEyX7yrEE03uL8nOYDThrwbTKfPtb95vy4RuKz/CZEKJ1QWldOgi1rBV7QkPioQkGgsYwBykg6JViwVgxaVbGR99Q01JNW4OLilWXx4vf2odAelCoMOLXRFsxSSQmmchqMvb0C3Xt2qCNoVSFPHWsP2goWCb8FHwoNIXZoPuBSEkxHQNzIEVRiITRIn8SI3xnUyFAFC4FDYwSLf/WC9OIdk8ycvQryuvBiNHsO+/bG4cpTHDo2p0H52oB3goXkhwigvdJuLJT6XXVB6q8Bg2A4qNfCZkChOenBmpekB07XmDlJydAVn3yrFKS85mHIrSoRY+UdfvpfHsbC+UMPiQOzfmVEvXjY+Evd/3MwpCVRuBakP3UwMuBKHzvPChbnvVdaoSP9ONdFAFsgKO0XxlPlJTkUlgKLBawalfaolrgUDZSGXo7UUeMGzgvjIAoWQ0UrJSwiDxtZo2UjWAxwFGhhJMSmKMFqUYIxBcY/iggmEjCRgF3wEGdMsdy1iA4dVCHUpoRSiSTTUWwJTfSCWhgDBpUsU5lTto0VttxI0jrWulGLXYVNohFaaAoixD3Nzc39QfQLLcY1s8ceiiLJZKTU4MiDeOvdaiqIgEa9eAt8pHU14xKbN8Xh8qpMWEksXUQGFabSxJdb91VtcdUJORx0JShH154RLFLt02tBYukcFahe8mX67jkWqYeSw8XlPX4G/PYmXTFolmJfpzSkLAwdkS5yzDQhEzaALy+PUboQFJtIyBbnJ+g5+5pjSn+5899VMX/y4QcAAA==</data>
+        <length>1100</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="f8cb25f693a10250df5f3ca47aba1056">f8cb25f693a10250df5f3ca47aba1056</sys_attachment>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-17 14:55:58</sys_created_on>
+        <sys_id>bccb25f693a10250df5f3ca47aba1056</sys_id>
+    </sys_attachment_doc>
+</record_update>

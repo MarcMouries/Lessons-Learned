@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Lesson_Learned</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Lesson_Learned</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">713d14d4470311103d2cb28a436d4383</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-15 17:20:36</sys_created_on>
+        <sys_id>77a9b30e93e1ca10df5f3ca47aba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lesson_Learned</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_wizard_answer_77a9b30e93e1ca10df5f3ca47aba10ff</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-15 17:20:36</sys_updated_on>
+        <table/>
+        <target_url>x_snc_llbp_lesson_learned.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

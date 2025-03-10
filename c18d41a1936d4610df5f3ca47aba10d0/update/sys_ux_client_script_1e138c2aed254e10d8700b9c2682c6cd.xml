@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Submission success Default">d2138c2a78254e101791c6ce198730d0</macroponent>
+        <name>confirmation_message_1_caption</name>
+        <preset/>
+        <required_translations>[
+    {
+        "code": null,
+        "message": "Reference Number : ",
+        "comment": null
+    }
+]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.imports
+ */
+function evaluateProperty({api, helpers}) {
+    const label = helpers.translateSync("Reference Number : ");
+    return `${label} ${api.data.lesson_learned.result.number.displayValue}`;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2024-04-16 12:40:14</sys_created_on>
+        <sys_id>1e138c2aed254e10d8700b9c2682c6cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>confirmation_message_1_caption</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_ux_client_script_1e138c2aed254e10d8700b9c2682c6cd</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 13:37:57</sys_updated_on>
+        <target/>
+        <type>transform</type>
+    </sys_ux_client_script>
+</record_update>

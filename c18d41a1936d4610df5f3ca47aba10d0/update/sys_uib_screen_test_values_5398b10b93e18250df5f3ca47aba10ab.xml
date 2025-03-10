@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": {},
+        "fields": null,
+        "forcedViewName": "",
+        "inputExtraParams": "",
+        "inputQuery": "",
+        "inputSysId": "-1",
+        "inputTable": "x_snc_llbp_lesson_learned_list",
+        "screen": null,
+        "selectedTabIndex": 0,
+        "userPrefs": null,
+        "view": "default view"
+    },
+    "sysId": "-1",
+    "table": "x_snc_llbp_lesson_learned_list"
+}</macroponent_config>
+        <screen display_value="Record Page(request) Default">1e138c2aa7254e100b893464b895e8b2</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 10:30:36</sys_created_on>
+        <sys_id>5398b10b93e18250df5f3ca47aba10ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_5398b10b93e18250df5f3ca47aba10ab</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 10:30:36</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

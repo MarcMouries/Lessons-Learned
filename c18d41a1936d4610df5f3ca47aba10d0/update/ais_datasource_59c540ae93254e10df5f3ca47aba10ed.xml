@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_datasource">
+    <ais_datasource action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conflict>false</conflict>
+        <embedding_model>E5FT</embedding_model>
+        <filter/>
+        <force_late_binding>false</force_late_binding>
+        <name>Topic Table</name>
+        <retention_policy/>
+        <source>x_snc_llbp_topic</source>
+        <sys_class_name>ais_datasource</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-16 12:51:53</sys_created_on>
+        <sys_id>59c540ae93254e10df5f3ca47aba10ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Topic Table</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>ais_datasource_59c540ae93254e10df5f3ca47aba10ed</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-16 12:51:53</sys_updated_on>
+        <type>internal</type>
+    </ais_datasource>
+</record_update>

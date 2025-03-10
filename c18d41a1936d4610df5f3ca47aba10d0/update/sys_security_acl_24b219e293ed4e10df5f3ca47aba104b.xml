@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>ACL for GetTopicList&#13;
+https://appengine4govdemo.service-now.com/sys_ux_data_broker_transform.do?sys_id=fbb5c52a936d4e10df5f3ca47aba1062&amp;sysparm_view=&amp;sysparm_domain=null&amp;sysparm_domain_scope=null</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>fbb5c52a936d4e10df5f3ca47aba1062</name>
+        <operation display_value="execute">execute</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-16 18:28:46</sys_created_on>
+        <sys_id>24b219e293ed4e10df5f3ca47aba104b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>fbb5c52a936d4e10df5f3ca47aba1062</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_security_acl_24b219e293ed4e10df5f3ca47aba104b</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-16 18:28:46</sys_updated_on>
+        <type display_value="ux_data_broker">6d9c40e9531210101cb3ddeeff7b12f6</type>
+    </sys_security_acl>
+</record_update>

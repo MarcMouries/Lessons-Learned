@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_snc_llbp_lessons_learned_workspace_search_profile_default_spell_check_dictionary">99c540ae93254e10df5f3ca47aba10b2</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="lessons-learned-workspace Search Profile">80c5cc6e69254e1043c6374ad83df7d6</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-16 12:51:53</sys_created_on>
+        <sys_id>51c540ae93254e10df5f3ca47aba10b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_llbp_lessons_learned_workspace_search_profile_default_spell_check_dictionary.lessons-learned-workspace Search Profile</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_51c540ae93254e10df5f3ca47aba10b5</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-16 12:51:53</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

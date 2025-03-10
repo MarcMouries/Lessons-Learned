@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_process_definition">
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <engine_major_version/>
+        <label>Lesson learned Playbook</label>
+        <name>playbook</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot display_value="playbook">66f0c5e093394e50df5f3ca47aba1020</snapshot>
+        <start_non_blocking>false</start_non_blocking>
+        <status>published</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:11:59</sys_created_on>
+        <sys_id>3bb6830f936d8250df5f3ca47aba1054</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Lesson learned Playbook</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_pd_process_definition_3bb6830f936d8250df5f3ca47aba1054</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:18:11</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_process_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <description/>
+        <designer_state/>
+        <engine_major_version/>
+        <label>Lesson learned Playbook</label>
+        <name>playbook</name>
+        <now_assist_prompt/>
+        <process_type/>
+        <restartable>RESTARTABLE_FALSE</restartable>
+        <run_on_pad_engine>false</run_on_pad_engine>
+        <schema_version>2</schema_version>
+        <snapshot display_value="playbook">66f0c5e093394e50df5f3ca47aba1020</snapshot>
+        <start_non_blocking>false</start_non_blocking>
+        <status>published</status>
+        <sys_class_name>sys_pd_process_definition</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:11:59</sys_created_on>
+        <sys_id>3bb6830f936d8250df5f3ca47aba1054</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Lesson learned Playbook</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sys_pd_process_definition_3bb6830f936d8250df5f3ca47aba1054</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:18:11</sys_updated_on>
+        <view_type>KANBAN</view_type>
+    </sys_pd_process_definition>
+    <sys_pd_lane action="delete_multiple" query="process_definition=3bb6830f936d8250df5f3ca47aba1054^sys_idNOT INd357ce0d357ff0d35c4f0d35d1c0d352,7f0076907f0072a07f006b407f000250,022374002232a002241e00222ff00223"/>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Review</label>
+        <lane_condition/>
+        <name>new_stage</name>
+        <order>1</order>
+        <process_definition display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">b823830967fc41ddb84959d97897b1ae</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:12:34</sys_created_on>
+        <sys_id>d357ce0d357ff0d35c4f0d35d1c0d352</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 21:31:10</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=d357ce0d357ff0d35c4f0d35d1c0d352"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>d357ce0d357ff0d35c4f0d35d1c0d352</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 21:31:05</sys_created_on>
+        <sys_id>5126bce493b54e50df5f3ca47aba10fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 21:31:05</sys_updated_on>
+        <value>b9ee0e0b9e9130b9e6280b9ecce0b9eb</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>Approval</label>
+        <lane_condition/>
+        <name>new_stage_1</name>
+        <order>2</order>
+        <process_definition display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:16:12</sys_created_on>
+        <sys_id>7f0076907f0072a07f006b407f000250</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 21:31:10</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=7f0076907f0072a07f006b407f000250"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>7f0076907f0072a07f006b407f000250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:16:12</sys_created_on>
+        <sys_id>fdb78f8f936d8250df5f3ca47aba1073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:16:12</sys_updated_on>
+        <value>d357ce0d357ff0d35c4f0d35d1c0d352</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_lane action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition_to_run/>
+        <description/>
+        <label>HR Review</label>
+        <lane_condition/>
+        <name>new_stage_2</name>
+        <order>3</order>
+        <process_definition display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Lanes">7407ca1ac3e02110f1f504186e40dd50</start_rule>
+        <start_rule_vars/>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-24 17:11:40</sys_created_on>
+        <sys_id>022374002232a002241e00222ff00223</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:11:49</sys_updated_on>
+        <visible_rule/>
+    </sys_pd_lane>
+    <sys_variable_value action="delete_multiple" query="document_key=022374002232a002241e00222ff00223"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_lane</document>
+        <document_key>022374002232a002241e00222ff00223</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-24 17:11:40</sys_created_on>
+        <sys_id>68fd8245c3f54a5016eb2385e001319a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:11:40</sys_updated_on>
+        <value>7f0076907f0072a07f006b407f000250</value>
+        <variable display_value="Lanes">9a070e1ac3e02110f1f504186e40ddd2</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="delete_multiple" query="process_definition=3bb6830f936d8250df5f3ca47aba1054^sys_idNOT IN1792e6017946f017913c017999f01792,1a8e18e01a8ee3a01a8edd001a8e0250,201de420201d6330201d6cb0201daf40"/>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Placeholder">ceac99e01b3f0010affd0e55cc4bcb83</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <label>2nd level review</label>
+        <lane display_value="Approval">7f0076907f0072a07f006b407f000250</lane>
+        <name>2nd_level_review</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-24 17:10:22</sys_created_on>
+        <sys_id>1792e6017946f017913c017999f01792</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:18:11</sys_updated_on>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1792e6017946f017913c017999f01792"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1792e6017946f017913c017999f01792</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-24 17:11:24</sys_created_on>
+        <sys_id>fced8681c3f54a5016eb2385e001315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:11:24</sys_updated_on>
+        <value>201de420201d6330201d6cb0201daf40</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Automated Update Record">569b840c1bbf0010affd0e55cc4bcbac</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <inputs/>
+        <label>Assign to Reviewer</label>
+        <lane display_value="Review">d357ce0d357ff0d35c4f0d35d1c0d352</lane>
+        <name>automated_update_record</name>
+        <order>1</order>
+        <outputs/>
+        <process_definition display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="Immediately">ef8ab8c0a3f04bceb117263f51401070</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:30</sys_created_on>
+        <sys_id>1a8e18e01a8ee3a01a8edd001a8e0250</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:16:39</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=1a8e18e01a8ee3a01a8edd001a8e0250"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>005081a093394e50df5f3ca47aba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Associated table">77edf4e40f100010f5bf5ae9c4767edb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>005081a093394e50df5f3ca47aba10f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show Checklist">d803775a5b01001031a67d6f7281c7aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>005081a093394e50df5f3ca47aba10f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:16:07</sys_updated_on>
+        <value>assigned_to=48a0a94c470bf1105d6c8fd4f16d431e^</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>045081a093394e50df5f3ca47aba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">4612be72c3211010381b60bc0eba8f47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>085081a093394e50df5f3ca47aba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Pending State Description">6688ff5d0700101070e493d0fad300f6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>085081a093394e50df5f3ca47aba10f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:16:08</sys_updated_on>
+        <value/>
+        <variable display_value="Title">13597d8ac7200010bfbaf89f51c2609e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>0c5081a093394e50df5f3ca47aba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Associated record">8c1ef8e40f100010f5bf5ae9c4767ed6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>405081a093394e50df5f3ca47aba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Show SLA">54c49bc60f3200102920c912d4767ee2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>445081a093394e50df5f3ca47aba10f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Attachments read only">576de7780f1300102920c912d4767e52</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>485081a093394e50df5f3ca47aba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Is Automated">63fd1eeac7e60010bfbaf89f51c26059</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>4c5081a093394e50df5f3ca47aba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Record fields">05bee8875b00001070e4492c11f91afb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>4c5081a093394e50df5f3ca47aba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Record">e3d270ccc3c632002841b63b12d3ae98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>4c5081a093394e50df5f3ca47aba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>805081a093394e50df5f3ca47aba10f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>&lt;p&gt;{{act.1a8e18e01a8ee3a01a8edd001a8e0250.description}}&lt;/p&gt;</value>
+        <variable display_value="Description">1d27b10ac7200010bfbaf89f51c26016</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>845081a093394e50df5f3ca47aba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">71ae56b6b74100101a6ddb91de11a9a1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>885081a093394e50df5f3ca47aba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Attachment Source">4f0e5d7e736100104a905ee515f6a70b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>885081a093394e50df5f3ca47aba10f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>5cd4f9305cd412b05cd4fb005cd4a850</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>8c5081a093394e50df5f3ca47aba10f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>Update Record</value>
+        <variable display_value="Pending State Title">e9ae23190700101070e493d0fad300c1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c05081a093394e50df5f3ca47aba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">5e5272b2c3211010381b60bc0eba8f13</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c05081a093394e50df5f3ca47aba10f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Form View">7cb449e85b41001070e4492c11f91a06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c05081a093394e50df5f3ca47aba10f8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:16:08</sys_updated_on>
+        <value>x_snc_llbp_lesson_learned</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c45081a093394e50df5f3ca47aba10f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>Update Record</value>
+        <variable display_value="Tagline">9a0c340673030010fe4a6da44cf6a7de</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c85081a093394e50df5f3ca47aba10f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Form fields">fbc1f11b5b40001070e4492c11f91a45</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>1a8e18e01a8ee3a01a8edd001a8e0250</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>cc5081a093394e50df5f3ca47aba10f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <value>document_outline</value>
+        <variable display_value="Icon">ad4db04673030010fe4a6da44cf6a798</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1a8e18e01a8ee3a01a8edd001a8e0250"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>0c504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Update Record./start.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>00504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Update Record./start.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>44504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>88504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>80504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.1a8e18e01a8ee3a01a8edd001a8e0250.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c0504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>04504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>84504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c8504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>845081a093394e50df5f3ca47aba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>cc504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>48504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>48504d6093394e50df5f3ca47aba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>8c504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>085081a093394e50df5f3ca47aba10f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:16:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{pd.inputRecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>005081a093394e50df5f3ca47aba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c05081a093394e50df5f3ca47aba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>40504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>445081a093394e50df5f3ca47aba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c4504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>08504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>Update {{vl.Update Record./start.table_name}} Record</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c85081a093394e50df5f3ca47aba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_baf174c8c3c232002841b63b12d3aee4^id=1a8e18e01a8ee3a01a8edd001a8e0250"/>
+    <sys_element_mapping action="delete_multiple" query="id=1a8e18e01a8ee3a01a8edd001a8e0250"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>0c504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Update Record./start.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>00504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{vl.Update Record./start.table_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachments_read_only</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>44504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_source</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>88504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>80504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>{{act.1a8e18e01a8ee3a01a8edd001a8e0250.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c0504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>04504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>84504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_fields</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c8504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>form_view</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>845081a093394e50df5f3ca47aba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>cc504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>48504d6093394e50df5f3ca47aba1040</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_description</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>48504d6093394e50df5f3ca47aba103f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>pending_title</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>8c504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>085081a093394e50df5f3ca47aba10f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:16:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{pd.inputRecord}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record_fields</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>005081a093394e50df5f3ca47aba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_checklist</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c05081a093394e50df5f3ca47aba10f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>show_sla</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>40504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>445081a093394e50df5f3ca47aba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c4504d6093394e50df5f3ca47aba1042</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>08504d6093394e50df5f3ca47aba1041</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4</table>
+        <value>Update {{vl.Update Record./start.table_name}} Record</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>1a8e18e01a8ee3a01a8edd001a8e0250</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:15:31</sys_created_on>
+        <sys_id>c85081a093394e50df5f3ca47aba10f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:15:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_activity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_definition display_value="Instruction">b0c35e2b1b630010affd0e55cc4bcbca</activity_definition>
+        <condition_to_run/>
+        <derivative_order/>
+        <derivative_parent/>
+        <description/>
+        <inputs/>
+        <inputs/>
+        <label>Check for completeness and accuracy</label>
+        <lane display_value="Review">d357ce0d357ff0d35c4f0d35d1c0d352</lane>
+        <name>check_for_completeness_and_accuracy</name>
+        <order>2</order>
+        <outputs/>
+        <process_definition display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</process_definition>
+        <restart_rule>RUN_ONLY_ONCE</restart_rule>
+        <start_rule display_value="After Activities">7abaf173c35101102a86cb03b940dd62</start_rule>
+        <start_rule_vars/>
+        <swim_lane/>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>201de420201d6330201d6cb0201daf40</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:06:29</sys_updated_on>
+        <type_vals/>
+        <type_vals/>
+        <variant/>
+    </sys_pd_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=201de420201d6330201d6cb0201daf40"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>23878b8f936d8250df5f3ca47aba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Associated Table">78f334b8c763001085f5532bb4c26009</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>23878b8f936d8250df5f3ca47aba1023</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>{{act.201de420201d6330201d6cb0201daf40.label}}</value>
+        <variable display_value="Title">49ed24875b00001070e4492c11f91aa5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>27878b8f936d8250df5f3ca47aba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>sys_flow_data</value>
+        <variable display_value="Experience Status Table">9c6b7e22c3211010381b60bc0eba8f98</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>2b878b8f936d8250df5f3ca47aba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Experience Status Record">55628762c3211010381b60bc0eba8fec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>2b878b8f936d8250df5f3ca47aba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>yes</value>
+        <variable display_value="Wait for user input">c23322e91bbb001094630f28cc4bcbae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>2b878b8f936d8250df5f3ca47aba1025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Branches">1dc0af0bc7311110bfbaf89f51c26029</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>63878b8f936d8250df5f3ca47aba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Associated Record">eb0474b8c763001085f5532bb4c260f5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>67878b8f936d8250df5f3ca47aba1025</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-24 17:06:29</sys_updated_on>
+        <value>1a8e18e01a8ee3a01a8edd001a8e0250</value>
+        <variable display_value="Activities">66b6c23fc35101102a86cb03b940dd29</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>6f878b8f936d8250df5f3ca47aba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>Instructional</value>
+        <variable display_value="Tagline">661d304673030010fe4a6da44cf6a7b1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>ab878b8f936d8250df5f3ca47aba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>&lt;p&gt;{{vl.Simple Instruction./start.message}}&lt;/p&gt;</value>
+        <variable display_value="Description">267e68875b00001070e4492c11f91a34</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>af878b8f936d8250df5f3ca47aba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Is Automated">ec5d96eac7e60010bfbaf89f51c2605d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>e7878b8f936d8250df5f3ca47aba1022</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value>circle_info_outline</value>
+        <variable display_value="Icon">24bdf44673030010fe4a6da44cf6a707</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>eb878b8f936d8250df5f3ca47aba1021</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <value/>
+        <variable display_value="Footer">8793d6feb70100101a6ddb91de11a98f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_activity</document>
+        <document_key>201de420201d6330201d6cb0201daf40</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>eb878b8f936d8250df5f3ca47aba1024</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:57</sys_updated_on>
+        <value/>
+        <variable display_value="Message">6c9c4ee31b630010affd0e55cc4bcbbf</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=201de420201d6330201d6cb0201daf40"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>ef878b8f936d8250df5f3ca47aba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>23870f4f936d8250df5f3ca47aba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>2b878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>e7870f4f936d8250df5f3ca47aba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>a3878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>6b878b8f936d8250df5f3ca47aba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>67878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>2f878b8f936d8250df5f3ca47aba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>e3878b8f936d8250df5f3ca47aba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value>{{act.201de420201d6330201d6cb0201daf40.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>eb878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>af878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.201de420201d6330201d6cb0201daf40.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>a7878b8f936d8250df5f3ca47aba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_output_2b8b42e31b630010affd0e55cc4bcbe9^id=201de420201d6330201d6cb0201daf40"/>
+    <sys_element_mapping action="delete_multiple" query="id=201de420201d6330201d6cb0201daf40"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_record</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>ef878b8f936d8250df5f3ca47aba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>associated_table</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>23870f4f936d8250df5f3ca47aba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>description</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>2b878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_record</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>e7870f4f936d8250df5f3ca47aba1078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction.e17e6678-8e97-4584-a903-cfa6e47fd378./end.record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>experience_status_table</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>a3878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>footer</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>6b878b8f936d8250df5f3ca47aba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>icon</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>67878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>is_automated</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>2f878b8f936d8250df5f3ca47aba101f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{vl.Simple Instruction./start.automated}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>message</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>e3878b8f936d8250df5f3ca47aba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value>{{act.201de420201d6330201d6cb0201daf40.description}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>tagline</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>eb878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>title</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>af878b8f936d8250df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_pd_activity_type_prop_d4dde0875b00001070e4492c11f91a90</table>
+        <value>{{act.201de420201d6330201d6cb0201daf40.label}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>wait</field>
+        <id>201de420201d6330201d6cb0201daf40</id>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:15:31</sys_created_on>
+        <sys_id>a7878b8f936d8250df5f3ca47aba1024</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:15:31</sys_updated_on>
+        <table>var__m_sys_hub_flow_input_2b8b42e31b630010affd0e55cc4bcbe9</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_pd_process_variant action="delete_multiple" query="process_definition=3bb6830f936d8250df5f3ca47aba1054"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=1792e6017946f017913c017999f01792"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=1a8e18e01a8ee3a01a8edd001a8e0250"/>
+    <sys_pd_derivative action="delete_multiple" query="derivative_parent=201de420201d6330201d6cb0201daf40"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=1792e6017946f017913c017999f01792"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=1a8e18e01a8ee3a01a8edd001a8e0250"/>
+    <sys_pd_activity_override action="delete_multiple" query="override_parent=201de420201d6330201d6cb0201daf40"/>
+    <sys_pd_snapshot action="delete_multiple" query="sys_id=66f0c5e093394e50df5f3ca47aba1020^sys_idNOT IN66f0c5e093394e50df5f3ca47aba1020"/>
+    <sys_pd_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <derivatives>{"table":"sys_pd_snapshot","id":"66f0c5e093394e50df5f3ca47aba1020","name":"derivatives","type":"com.snc.pd.model.serialization.DerivativeFetcher"}</derivatives>
+        <name>playbook</name>
+        <process_definition>{"table":"sys_pd_snapshot","id":"66f0c5e093394e50df5f3ca47aba1020","name":"process_definition","type":"com.snc.pd.model.ProcessDefinition"}</process_definition>
+        <process_dependencies/>
+        <process_plan>{"table":"sys_pd_snapshot","id":"66f0c5e093394e50df5f3ca47aba1020","name":"process_plan","type":"com.snc.process_flow.engine.ProcessPlan"}</process_plan>
+        <source display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</source>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:18:25</sys_created_on>
+        <sys_id>66f0c5e093394e50df5f3ca47aba1020</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:18:25</sys_updated_on>
+    </sys_pd_snapshot>
+    <sys_json_chunk action="delete_multiple" query="document_id=66f0c5e093394e50df5f3ca47aba1020"/>
+    <sys_pd_snapshot_chunk action="delete_multiple" query="document_id=66f0c5e093394e50df5f3ca47aba1020^sys_idNOT INa6f0c5e093394e50df5f3ca47aba1021,a2f0c5e093394e50df5f3ca47aba1021,aaf0c5e093394e50df5f3ca47aba1020"/>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <document_id display_value="playbook">66f0c5e093394e50df5f3ca47aba1020</document_id>
+        <field>derivatives</field>
+        <length>2732</length>
+        <position>0</position>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:18:25</sys_created_on>
+        <sys_id>a6f0c5e093394e50df5f3ca47aba1021</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAANVYTW/bOBD9KwaxxwQgKVEfOTXY7aFAi34g7WURCCNy2AqVJYOSXQSG//sOJcV2YrmSgwV2c/HA5Gg4fO8Nh9KWFYbdsCDPoyTgNg0ik0jFjVU20BDGkIPgKmRXrIIlkueqhIe8rn/SSAk5ljT0HpumrhYlgqvQLD4de1TYsJu/t/0qJlCxRu6Ntd7osDNGaG/kYZUKf2VNC9+Rhsi6lt0MMSRYzlPgMgjSEBVPdBym0uo01Elg8rEYf/QRDgmfzhhstCtWbVFX7KZal2Wf+7yca2fQPT7WRczcusTTkax9WI0Nb8ARStvdFdN1ZQqfRdbWNLdPxuAKK4OVLjo87/2IKzbQFpsBYFuUrc+CUUKgabxoH+bAtbsfUvkLibePHQRDMods6Q8tv+cgGoLquA8apVKBBJUnEMXpOAf++TEG+vFXhv8cFQpIUCTIvcUAOmsM7yynEmPzSZzEey6JDp8WEwyBY+gDKx5bjpoLqXOVjBP5GGOMzMPcKyN0PheTkM3l4hG9L7gp8Bd7ulFWLJdoCmjxsHpxfJROqmvPHKzbekmBTLZeGbKZQ00AH/F32zTF92rR1os+F9r1MwIZewF94jdbOqGQoU0gTzSHwPIw15gLEcsosEqEXPCYs9kEM/aCep0vgEnkJwVAlHcM7O7HdHjm0ZPN9zreb/+u/tJvfnc1SIR0yeMo5Z2V0NkoDzv7VCL7As7ESb8FtFwr5DbqkZOhDWzIU61MBIrb0SjnO+7R3PkjYkbm/8GZP3kKX3CITIH6kq6MQ9AQh6B0JAFXdDYpKeU5ps705f3Ma2Nphl4lFwZDyb2NgqC3Ou8skO8FRE5i/tLOLOWwDTW0mURYmUQh10EERowX7+9685PZ10bqv1h6k8Be2r9vVytXb6B83sHB0vJZ/wY03sMndbjnWP9A/TOztct0vVyV2CJFbTKoTAZarx3ohyPO//TeC/JeHHsvyHtx5H2uwc9XwP+pwU+W/QUKmaJlusG/q5rWrbWfIGGM9Pnpa9QFN4Ht43v2lr3RJTRNl8G3TpJvhhdvk+SpguuIzqVr/1Z/TcUTX0vIFQrDI/olZ1LxeuYdzxSN/xLwbf4TLZIWvTg6vH9AMzxLQOEVK6rVuv3aIGVroWxopCm8du96QD9+uv389W2f4t0+UH9YoHO1+0AK958LhjGHFh2h3V+qdrvRixJBTKVLPs173GB5e1yiHn5dd2trkZhQgPDfRsJIPPs2YkgP/wBy56g9RREAAA==</data>
+        <document_id display_value="playbook">66f0c5e093394e50df5f3ca47aba1020</document_id>
+        <field>process_definition</field>
+        <length>1268</length>
+        <position>0</position>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:18:25</sys_created_on>
+        <sys_id>a2f0c5e093394e50df5f3ca47aba1021</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_snapshot_chunk action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <document_id display_value="playbook">66f0c5e093394e50df5f3ca47aba1020</document_id>
+        <field>process_plan</field>
+        <length>7788</length>
+        <position>0</position>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:18:25</sys_created_on>
+        <sys_id>aaf0c5e093394e50df5f3ca47aba1020</sys_id>
+    </sys_pd_snapshot_chunk>
+    <sys_pd_trigger_instance action="delete_multiple" query="sys_id=37b6830f936d8250df5f3ca47aba105a^sys_idNOT IN37b6830f936d8250df5f3ca47aba105a"/>
+    <sys_pd_trigger_instance action="INSERT_OR_UPDATE">
+        <label/>
+        <name/>
+        <process_definition display_value="Lesson learned Playbook">3bb6830f936d8250df5f3ca47aba1054</process_definition>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:11:59</sys_created_on>
+        <sys_id>37b6830f936d8250df5f3ca47aba105a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:11:59</sys_updated_on>
+        <trigger_definition/>
+        <trigger_inputs/>
+        <trigger_type display_value="Record Create">ab6951170f1200108c87f4f0ff767e4f</trigger_type>
+    </sys_pd_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=37b6830f936d8250df5f3ca47aba105a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_pd_trigger_instance</document>
+        <document_key>37b6830f936d8250df5f3ca47aba105a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 16:11:59</sys_created_on>
+        <sys_id>40c6830f936d8250df5f3ca47aba105c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 16:11:59</sys_updated_on>
+        <value>x_snc_llbp_lesson_learned</value>
+        <variable display_value="Table">a8ae38d1ff2200108c8733af793bf15c</variable>
+    </sys_variable_value>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=37b6830f936d8250df5f3ca47aba105a^sys_idNOT INe6f0c5e093394e50df5f3ca47aba101f"/>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_trigger":"org.mozilla.javascript.UniqueTag@b33b7a: NOT_FOUND"}</data>
+        <identifier>37b6830f936d8250df5f3ca47aba105a</identifier>
+        <runner>PDTriggerRunner</runner>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:18:25</sys_created_on>
+        <sys_id>e6f0c5e093394e50df5f3ca47aba101f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:18:25</sys_updated_on>
+        <trigger display_value="">2ef0c5e093394e50df5f3ca47aba101e</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_json_chunk action="delete_multiple" query="document_id=e6f0c5e093394e50df5f3ca47aba101f"/>
+    <sys_flow_record_trigger action="delete_multiple" query="sys_id=2ef0c5e093394e50df5f3ca47aba101e^sys_idNOT IN2ef0c5e093394e50df5f3ca47aba101e"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_llbp_lesson_learned">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-22 22:18:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2ef0c5e093394e50df5f3ca47aba101e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-22 22:18:25</sys_updated_on>
+        <table>x_snc_llbp_lesson_learned</table>
+    </sys_flow_record_trigger>
+</record_update>

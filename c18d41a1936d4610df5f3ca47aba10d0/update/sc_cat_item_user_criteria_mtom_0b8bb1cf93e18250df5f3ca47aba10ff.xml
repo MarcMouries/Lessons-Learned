@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Capture a Lesson Learned">f9357d0393e18250df5f3ca47aba10f9</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-18 10:43:26</sys_created_on>
+        <sys_id>0b8bb1cf93e18250df5f3ca47aba10ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lesson Learned.All Users</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_0b8bb1cf93e18250df5f3ca47aba10ff</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-18 10:43:26</sys_updated_on>
+        <user_criteria display_value="All Users">aa60569553b30110e003ddeeff7b12f0</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2024-04-15 19:46:00</sys_created_on>
+        <sys_id>79fa9cda93e5ca10df5f3ca47aba10aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_llbp_topic.x_snc_llbp.admin</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_security_acl display_value="x_snc_llbp_topic">f1fa9cda93e5ca10df5f3ca47aba10a5</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_79fa9cda93e5ca10df5f3ca47aba10aa</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2024-04-15 19:46:00</sys_updated_on>
+        <sys_user_role display_value="x_snc_llbp.admin" name="x_snc_llbp.admin">0d8d41a1936d4610df5f3ca47aba10d7</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
