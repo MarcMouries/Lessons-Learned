@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -12,9 +12,7 @@
         },
         "elementId": "352c5af3c3202010a3a6ddaa7d40dd0d_Main",
         "elementLabel": "Main",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHero": false,
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -30,9 +28,7 @@
                     },
                     "elementId": "container_9",
                     "elementLabel": "Wrapper",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -48,9 +44,7 @@
                                 },
                                 "elementId": "container_9_Main",
                                 "elementLabel": "Main",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -66,9 +60,7 @@
                                             },
                                             "elementId": "container_8",
                                             "elementLabel": "Container 8",
-                                            "eventMappings": [
-                                                
-                                            ],
+                                            "eventMappings": [],
                                             "isHero": false,
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
@@ -84,9 +76,7 @@
                                                         },
                                                         "elementId": "container_8_Main",
                                                         "elementLabel": "Main",
-                                                        "eventMappings": [
-                                                            
-                                                        ],
+                                                        "eventMappings": [],
                                                         "isHero": false,
                                                         "isHidden": {
                                                             "type": "JSON_LITERAL",
@@ -138,12 +128,17 @@
                                                                     },
                                                                     "isNonDestructive": false,
                                                                     "overrides": null,
+                                                                    "preset": null,
                                                                     "propertyValues": {
                                                                         "configAria": {
                                                                             "container": {},
                                                                             "type": "MAP_CONTAINER"
                                                                         },
                                                                         "disabled": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": false
+                                                                        },
+                                                                        "hideBlockPadding": {
                                                                             "type": "JSON_LITERAL",
                                                                             "value": false
                                                                         },
@@ -171,6 +166,10 @@
                                                                                 "message": "Back to previous"
                                                                             }
                                                                         },
+                                                                        "landmark": {
+                                                                            "type": "JSON_LITERAL",
+                                                                            "value": null
+                                                                        },
                                                                         "showInlinePadding": {
                                                                             "type": "JSON_LITERAL",
                                                                             "value": false
@@ -194,9 +193,7 @@
                                                                     },
                                                                     "elementId": "container_1",
                                                                     "elementLabel": "Header container",
-                                                                    "eventMappings": [
-                                                                        
-                                                                    ],
+                                                                    "eventMappings": [],
                                                                     "isHero": false,
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
@@ -212,9 +209,7 @@
                                                                                 },
                                                                                 "elementId": "container_1_Main",
                                                                                 "elementLabel": "Main",
-                                                                                "eventMappings": [
-                                                                                    
-                                                                                ],
+                                                                                "eventMappings": [],
                                                                                 "isHero": false,
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
@@ -230,9 +225,7 @@
                                                                                             },
                                                                                             "elementId": "image_1",
                                                                                             "elementLabel": "Image 1",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
                                                                                                 "value": null
@@ -257,9 +250,7 @@
                                                                                                 },
                                                                                                 "sources": {
                                                                                                     "type": "JSON_LITERAL",
-                                                                                                    "value": [
-                                                                                                        
-                                                                                                    ]
+                                                                                                    "value": []
                                                                                                 },
                                                                                                 "src": {
                                                                                                     "type": "JSON_LITERAL",
@@ -280,9 +271,7 @@
                                                                                             },
                                                                                             "elementId": "container_2",
                                                                                             "elementLabel": "Container 2",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -298,9 +287,7 @@
                                                                                                         },
                                                                                                         "elementId": "dp",
                                                                                                         "elementLabel": "Display name",
-                                                                                                        "eventMappings": [
-                                                                                                            
-                                                                                                        ],
+                                                                                                        "eventMappings": [],
                                                                                                         "isHero": false,
                                                                                                         "isHidden": {
                                                                                                             "type": "JSON_LITERAL",
@@ -339,9 +326,7 @@
                                                                                                         },
                                                                                                         "elementId": "container_2_Row_2",
                                                                                                         "elementLabel": "Row 2",
-                                                                                                        "eventMappings": [
-                                                                                                            
-                                                                                                        ],
+                                                                                                        "eventMappings": [],
                                                                                                         "isHero": false,
                                                                                                         "isHidden": {
                                                                                                             "type": "JSON_LITERAL",
@@ -357,9 +342,7 @@
                                                                                                                     },
                                                                                                                     "elementId": "container_3",
                                                                                                                     "elementLabel": "Container 3",
-                                                                                                                    "eventMappings": [
-                                                                                                                        
-                                                                                                                    ],
+                                                                                                                    "eventMappings": [],
                                                                                                                     "isHero": false,
                                                                                                                     "isHidden": {
                                                                                                                         "type": "JSON_LITERAL",
@@ -375,9 +358,7 @@
                                                                                                                                 },
                                                                                                                                 "elementId": "container_3_Main",
                                                                                                                                 "elementLabel": "Main",
-                                                                                                                                "eventMappings": [
-                                                                                                                                    
-                                                                                                                                ],
+                                                                                                                                "eventMappings": [],
                                                                                                                                 "isHero": false,
                                                                                                                                 "isHidden": {
                                                                                                                                     "type": "JSON_LITERAL",
@@ -393,9 +374,7 @@
                                                                                                                                             },
                                                                                                                                             "elementId": "icon_1",
                                                                                                                                             "elementLabel": "Phone icon",
-                                                                                                                                            "eventMappings": [
-                                                                                                                                                
-                                                                                                                                            ],
+                                                                                                                                            "eventMappings": [],
                                                                                                                                             "isHero": false,
                                                                                                                                             "isHidden": {
                                                                                                                                                 "script": {
@@ -427,9 +406,7 @@
                                                                                                                                             },
                                                                                                                                             "elementId": "stylized_text_2",
                                                                                                                                             "elementLabel": "Phone value",
-                                                                                                                                            "eventMappings": [
-                                                                                                                                                
-                                                                                                                                            ],
+                                                                                                                                            "eventMappings": [],
                                                                                                                                             "isHero": false,
                                                                                                                                             "isHidden": {
                                                                                                                                                 "script": {
@@ -469,9 +446,7 @@
                                                                                                                                             },
                                                                                                                                             "elementId": "icon_2",
                                                                                                                                             "elementLabel": "Email icon",
-                                                                                                                                            "eventMappings": [
-                                                                                                                                                
-                                                                                                                                            ],
+                                                                                                                                            "eventMappings": [],
                                                                                                                                             "isHero": false,
                                                                                                                                             "isHidden": {
                                                                                                                                                 "script": {
@@ -503,9 +478,7 @@
                                                                                                                                             },
                                                                                                                                             "elementId": "text_link_1",
                                                                                                                                             "elementLabel": "Email",
-                                                                                                                                            "eventMappings": [
-                                                                                                                                                
-                                                                                                                                            ],
+                                                                                                                                            "eventMappings": [],
                                                                                                                                             "isHero": false,
                                                                                                                                             "isHidden": {
                                                                                                                                                 "script": {
@@ -653,9 +626,7 @@
                                                                                                                                 },
                                                                                                                                 "elementId": "container_3_Sidebar_1",
                                                                                                                                 "elementLabel": "Sidebar 1",
-                                                                                                                                "eventMappings": [
-                                                                                                                                    
-                                                                                                                                ],
+                                                                                                                                "eventMappings": [],
                                                                                                                                 "isHero": false,
                                                                                                                                 "isHidden": {
                                                                                                                                     "type": "JSON_LITERAL",
@@ -671,9 +642,7 @@
                                                                                                                                             },
                                                                                                                                             "elementId": "stylized_text_26",
                                                                                                                                             "elementLabel": "Save lesson-learned",
-                                                                                                                                            "eventMappings": [
-                                                                                                                                                
-                                                                                                                                            ],
+                                                                                                                                            "eventMappings": [],
                                                                                                                                             "isHero": false,
                                                                                                                                             "isHidden": {
                                                                                                                                                 "type": "JSON_LITERAL",
@@ -1188,9 +1157,7 @@
                                                                     },
                                                                     "elementId": "content_container",
                                                                     "elementLabel": "Content container",
-                                                                    "eventMappings": [
-                                                                        
-                                                                    ],
+                                                                    "eventMappings": [],
                                                                     "isHero": false,
                                                                     "isHidden": {
                                                                         "type": "JSON_LITERAL",
@@ -1206,9 +1173,7 @@
                                                                                 },
                                                                                 "elementId": "content_container_Main",
                                                                                 "elementLabel": "Main",
-                                                                                "eventMappings": [
-                                                                                    
-                                                                                ],
+                                                                                "eventMappings": [],
                                                                                 "isHero": false,
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
@@ -1224,9 +1189,7 @@
                                                                                             },
                                                                                             "elementId": "Abstract_heading",
                                                                                             "elementLabel": "Abstract Heading",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1270,9 +1233,7 @@
                                                                                             },
                                                                                             "elementId": "Abstract_stylized_text",
                                                                                             "elementLabel": "Abstract Value",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
                                                                                                 "value": null
@@ -1309,9 +1270,7 @@
                                                                                             },
                                                                                             "elementId": "driving_event_heading",
                                                                                             "elementLabel": "Driving event Heading",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1355,9 +1314,7 @@
                                                                                             },
                                                                                             "elementId": "driving_event_stylized_text",
                                                                                             "elementLabel": "Driving event value",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1396,9 +1353,7 @@
                                                                                             },
                                                                                             "elementId": "container_6_Column_4",
                                                                                             "elementLabel": "Row 4",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1414,9 +1369,7 @@
                                                                                                         },
                                                                                                         "elementId": "lesson_s_learned_heading",
                                                                                                         "elementLabel": "Lessons learned label",
-                                                                                                        "eventMappings": [
-                                                                                                            
-                                                                                                        ],
+                                                                                                        "eventMappings": [],
                                                                                                         "isHero": false,
                                                                                                         "isHidden": {
                                                                                                             "type": "JSON_LITERAL",
@@ -1460,9 +1413,7 @@
                                                                                                         },
                                                                                                         "elementId": "lesson_s_learned_stylized_text",
                                                                                                         "elementLabel": "lessons_learned value",
-                                                                                                        "eventMappings": [
-                                                                                                            
-                                                                                                        ],
+                                                                                                        "eventMappings": [],
                                                                                                         "isHero": false,
                                                                                                         "isHidden": {
                                                                                                             "type": "JSON_LITERAL",
@@ -1564,9 +1515,7 @@
                                                                                             },
                                                                                             "elementId": "recommendations_heading",
                                                                                             "elementLabel": "Recommendations label",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1610,9 +1559,7 @@
                                                                                             },
                                                                                             "elementId": "rich_text_1",
                                                                                             "elementLabel": "Rich text 1",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
                                                                                                 "value": null
@@ -1641,9 +1588,7 @@
                                                                                             },
                                                                                             "elementId": "stylized_text_16",
                                                                                             "elementLabel": "Department value",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1679,9 +1624,7 @@
                                                                                             },
                                                                                             "elementId": "stylized_text_20",
                                                                                             "elementLabel": "Email value",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1717,9 +1660,7 @@
                                                                                             },
                                                                                             "elementId": "reminder_notes_container",
                                                                                             "elementLabel": "Reminders and notes",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -1735,9 +1676,7 @@
                                                                                                         },
                                                                                                         "elementId": "reminder_notes_container_Main",
                                                                                                         "elementLabel": "Main",
-                                                                                                        "eventMappings": [
-                                                                                                            
-                                                                                                        ],
+                                                                                                        "eventMappings": [],
                                                                                                         "isHero": false,
                                                                                                         "isHidden": {
                                                                                                             "type": "JSON_LITERAL",
@@ -1753,9 +1692,7 @@
                                                                                                                     },
                                                                                                                     "elementId": "heading_3",
                                                                                                                     "elementLabel": "Notes header",
-                                                                                                                    "eventMappings": [
-                                                                                                                        
-                                                                                                                    ],
+                                                                                                                    "eventMappings": [],
                                                                                                                     "isHero": false,
                                                                                                                     "isHidden": {
                                                                                                                         "type": "JSON_LITERAL",
@@ -1799,9 +1736,7 @@
                                                                                                                     },
                                                                                                                     "elementId": "notes_container",
                                                                                                                     "elementLabel": "Notes/Reminders container",
-                                                                                                                    "eventMappings": [
-                                                                                                                        
-                                                                                                                    ],
+                                                                                                                    "eventMappings": [],
                                                                                                                     "isHero": false,
                                                                                                                     "isHidden": {
                                                                                                                         "script": {
@@ -1821,9 +1756,7 @@
                                                                                                                                 },
                                                                                                                                 "elementId": "notes_container_Main",
                                                                                                                                 "elementLabel": "Main",
-                                                                                                                                "eventMappings": [
-                                                                                                                                    
-                                                                                                                                ],
+                                                                                                                                "eventMappings": [],
                                                                                                                                 "isHero": false,
                                                                                                                                 "isHidden": {
                                                                                                                                     "type": "JSON_LITERAL",
@@ -1839,9 +1772,7 @@
                                                                                                                                             },
                                                                                                                                             "elementId": "close_container",
                                                                                                                                             "elementLabel": "Close container",
-                                                                                                                                            "eventMappings": [
-                                                                                                                                                
-                                                                                                                                            ],
+                                                                                                                                            "eventMappings": [],
                                                                                                                                             "isHero": false,
                                                                                                                                             "isHidden": {
                                                                                                                                                 "type": "JSON_LITERAL",
@@ -2102,9 +2033,7 @@
                                                                                                                                                 },
                                                                                                                                                 "formMessages": {
                                                                                                                                                     "type": "JSON_LITERAL",
-                                                                                                                                                    "value": [
-                                                                                                                                                        
-                                                                                                                                                    ]
+                                                                                                                                                    "value": []
                                                                                                                                                 },
                                                                                                                                                 "inUiBuilder": {
                                                                                                                                                     "type": "JSON_LITERAL",
@@ -2154,9 +2083,7 @@
                                                                                                                                                 },
                                                                                                                                                 "serializedChanges": {
                                                                                                                                                     "type": "JSON_LITERAL",
-                                                                                                                                                    "value": [
-                                                                                                                                                        
-                                                                                                                                                    ]
+                                                                                                                                                    "value": []
                                                                                                                                                 },
                                                                                                                                                 "sysId": {
                                                                                                                                                     "type": "JSON_LITERAL",
@@ -2194,9 +2121,7 @@
                                                                                                                                             },
                                                                                                                                             "elementId": "save_notes",
                                                                                                                                             "elementLabel": "Save notes",
-                                                                                                                                            "eventMappings": [
-                                                                                                                                                
-                                                                                                                                            ],
+                                                                                                                                            "eventMappings": [],
                                                                                                                                             "isHero": false,
                                                                                                                                             "isHidden": {
                                                                                                                                                 "type": "JSON_LITERAL",
@@ -2212,9 +2137,7 @@
                                                                                                                                                         },
                                                                                                                                                         "elementId": "save_notes_Main",
                                                                                                                                                         "elementLabel": "Main",
-                                                                                                                                                        "eventMappings": [
-                                                                                                                                                            
-                                                                                                                                                        ],
+                                                                                                                                                        "eventMappings": [],
                                                                                                                                                         "isHero": false,
                                                                                                                                                         "isHidden": {
                                                                                                                                                             "type": "JSON_LITERAL",
@@ -2987,9 +2910,7 @@
                                                                                             },
                                                                                             "elementId": "reminder_notes_buttons",
                                                                                             "elementLabel": "Reminder and notes buttons",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "script": {
@@ -3009,9 +2930,7 @@
                                                                                                         },
                                                                                                         "elementId": "reminder_notes_buttons_Main",
                                                                                                         "elementLabel": "Main",
-                                                                                                        "eventMappings": [
-                                                                                                            
-                                                                                                        ],
+                                                                                                        "eventMappings": [],
                                                                                                         "isHero": false,
                                                                                                         "isHidden": {
                                                                                                             "type": "JSON_LITERAL",
@@ -3559,9 +3478,7 @@
                                                                                 },
                                                                                 "elementId": "content_container_Sidebar_1",
                                                                                 "elementLabel": "Sidebar 1",
-                                                                                "eventMappings": [
-                                                                                    
-                                                                                ],
+                                                                                "eventMappings": [],
                                                                                 "isHero": false,
                                                                                 "isHidden": {
                                                                                     "type": "JSON_LITERAL",
@@ -3577,9 +3494,7 @@
                                                                                             },
                                                                                             "elementId": "related_content_1",
                                                                                             "elementLabel": "Team mates related content",
-                                                                                            "eventMappings": [
-                                                                                                
-                                                                                            ],
+                                                                                            "eventMappings": [],
                                                                                             "isHero": false,
                                                                                             "isHidden": {
                                                                                                 "type": "JSON_LITERAL",
@@ -4078,9 +3993,7 @@
         },
         "elementId": "userObj",
         "elementLabel": "Get contact info",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "recordId": {
                 "binding": {
@@ -4117,9 +4030,7 @@
         },
         "elementId": "get_relationship_contact",
         "elementLabel": "Get relationship contact",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "recordId": {
                 "binding": {
@@ -4231,8 +4142,8 @@
             "id": "b997a84053021010cbc2ddeeff7b1228",
             "type": "COMPOSITE"
         },
-        "elementId": "get_team_mates",
-        "elementLabel": "Get teammates",
+        "elementId": "get_collaborators",
+        "elementLabel": "Get Collaborators",
         "eventMappings": [
             {
                 "eventMappingId": "ckiiicggggtaaaaaaccrddhiicccizooaawaa",
@@ -4433,9 +4344,7 @@
         },
         "elementId": "get_notes_reminders",
         "elementLabel": "Get notes/reminders",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "evamDefinitionId": {
                 "type": "JSON_LITERAL",
@@ -4533,9 +4442,7 @@
         },
         "elementId": "live_profile",
         "elementLabel": "Get live profile",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "encodedQuery": {
                 "binding": {
@@ -4588,9 +4495,7 @@
         "dependencies": {},
         "elementId": "lesson_learned",
         "elementLabel": "Look Up Lesson Learned",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "recordId": {
                 "binding": {
@@ -4971,14 +4876,14 @@
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-04-17 02:17:55</sys_created_on>
         <sys_id>d84eba2a936d8e10df5f3ca47aba1074</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>45</sys_mod_count>
         <sys_name>Lesson Learned Default</sys_name>
         <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
         <sys_update_name>sys_ux_macroponent_d84eba2a936d8e10df5f3ca47aba1074</sys_update_name>
-        <sys_updated_by>jason.brackins@snc</sys_updated_by>
-        <sys_updated_on>2024-07-08 18:39:16</sys_updated_on>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-03-10 20:57:11</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d84eba2a936d8e10df5f3ca47aba1074"/>
 </record_update>

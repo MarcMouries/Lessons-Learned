@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="Capture a Lesson Learned">f9357d0393e18250df5f3ca47aba10f9</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-03-10 17:26:20</sys_created_on>
+        <sys_id>6f0eca843318ea104890955a7e5c7b92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Capture a Lesson Learned.SNC External</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_6f0eca843318ea104890955a7e5c7b92</sys_update_name>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-03-10 17:26:20</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</application>
+        <file_path/>
+        <instance_id>bed3c2091b56b11ce84d2f8dee4bcbd7</instance_id>
+        <instance_name>marco</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_6f0eca843318ea104890955a7e5c7b92</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Capture a Lesson Learned">f9357d0393e18250df5f3ca47aba10f9</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>Marc.Mouries</sys_created_by><sys_created_on>2025-03-10 17:26:20</sys_created_on><sys_id>6f0eca843318ea104890955a7e5c7b92</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Capture a Lesson Learned.SNC External</sys_name><sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package><sys_policy/><sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_6f0eca843318ea104890955a7e5c7b92</sys_update_name><sys_updated_by>Marc.Mouries</sys_updated_by><sys_updated_on>2025-03-10 17:26:20</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1442028951</payload_hash>
+        <record_name>Capture a Lesson Learned.SNC External</record_name>
+        <reverted_from/>
+        <source>a2943b21333312104890955a7e5c7bdf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-02-18 20:13:52</sys_created_on>
+        <sys_id>7adf660433d8ea104890955a7e5c7bde</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1951ab210000000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>3adf66045ed8ea10e8e6813851b6d4de</update_guid>
+        <update_guid_history>3adf66045ed8ea10e8e6813851b6d4de:-1442028951</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Capture a Lesson Learned.SNC External">f6df660433d8ea104890955a7e5c7bdf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Marc.Mouries</sys_created_by>
+        <sys_created_on>2025-03-10 19:54:01</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>54c4bbc5516a4ac8a21b1312d4952739</sys_id>
+        <sys_metadata>6f0eca843318ea104890955a7e5c7b92</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Capture a Lesson Learned.SNC External</sys_name>
+        <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
+        <sys_scope_delete display_value="">791faee9ed924b9ca62f5598b15d9164</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_6f0eca843318ea104890955a7e5c7b92</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_6f0eca843318ea104890955a7e5c7b92">7adf660433d8ea104890955a7e5c7bde</sys_update_version>
+        <sys_updated_by>Marc.Mouries</sys_updated_by>
+        <sys_updated_on>2025-03-10 19:54:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

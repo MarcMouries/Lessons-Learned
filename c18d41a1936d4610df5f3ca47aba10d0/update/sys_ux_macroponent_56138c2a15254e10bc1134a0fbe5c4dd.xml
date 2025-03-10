@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
-        <bundles/>
+        <bundles>[]</bundles>
         <category>page</category>
         <component_dependencies/>
         <composition>[
@@ -12,9 +12,7 @@
         },
         "elementId": "alert_1",
         "elementLabel": "Alert 1",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHero": false,
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -73,9 +71,7 @@
         },
         "elementId": "alert_2",
         "elementLabel": "Alert 2",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHero": false,
         "isHidden": {
             "type": "JSON_LITERAL",
@@ -182,9 +178,7 @@
                     },
                     "elementId": "heading_6",
                     "elementLabel": "Heading 6",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -228,9 +222,7 @@
                     },
                     "elementId": "form_3",
                     "elementLabel": "Form 3",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -267,9 +259,7 @@
                         },
                         "formMessages": {
                             "type": "JSON_LITERAL",
-                            "value": [
-                                
-                            ]
+                            "value": []
                         },
                         "inRecordPageTab": {
                             "type": "JSON_LITERAL",
@@ -323,9 +313,7 @@
                         },
                         "serializedChanges": {
                             "type": "JSON_LITERAL",
-                            "value": [
-                                
-                            ]
+                            "value": []
                         },
                         "sysId": {
                             "binding": {
@@ -366,9 +354,7 @@
                     },
                     "elementId": "container_4",
                     "elementLabel": "Container 4",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -384,9 +370,7 @@
                                 },
                                 "elementId": "container_4_Main",
                                 "elementLabel": "Buttons",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -884,9 +868,7 @@
                     },
                     "elementId": "heading_7",
                     "elementLabel": "Heading 7",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -930,9 +912,7 @@
                     },
                     "elementId": "form_4",
                     "elementLabel": "Form 4",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -969,9 +949,7 @@
                         },
                         "formMessages": {
                             "type": "JSON_LITERAL",
-                            "value": [
-                                
-                            ]
+                            "value": []
                         },
                         "inRecordPageTab": {
                             "type": "JSON_LITERAL",
@@ -1025,9 +1003,7 @@
                         },
                         "serializedChanges": {
                             "type": "JSON_LITERAL",
-                            "value": [
-                                
-                            ]
+                            "value": []
                         },
                         "sysId": {
                             "binding": {
@@ -1068,9 +1044,7 @@
                     },
                     "elementId": "container_5",
                     "elementLabel": "Container 5",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHero": false,
                     "isHidden": {
                         "type": "JSON_LITERAL",
@@ -1086,9 +1060,7 @@
                                 },
                                 "elementId": "container_5_Main",
                                 "elementLabel": "Modal_Main",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHero": false,
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
@@ -1570,9 +1542,7 @@
         },
         "elementId": "container_header",
         "elementLabel": "Header",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -1586,9 +1556,7 @@
                     },
                     "elementId": "home_banner",
                     "elementLabel": "Home Banner",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -1602,9 +1570,7 @@
                                 },
                                 "elementId": "home_banner_Column_1",
                                 "elementLabel": "Column 1",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -1696,15 +1662,17 @@
                                                     "element_id": "search_combobox_component_1",
                                                     "rules": {},
                                                     "styles": {
-                                                        "height": "",
-                                                        "width": ""
+                                                        "width": "100%"
                                                     }
                                                 }
                                             ],
                                             "root": null,
                                             "rules": null,
                                             "styles": {
-                                                "flex-direction": "column"
+                                                "align-items": "stretch",
+                                                "display": "flex",
+                                                "flex-direction": "row",
+                                                "justify-content": "space-between"
                                             },
                                             "templateId": "5832fd4d53c31010e6bcddeeff7b12db",
                                             "type": "flex"
@@ -1753,9 +1721,7 @@
                                 },
                                 "elementId": "image_1",
                                 "elementLabel": "Banner Image",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -1768,7 +1734,7 @@
                                     },
                                     "fit": {
                                         "type": "JSON_LITERAL",
-                                        "value": "fill"
+                                        "value": "contain"
                                     },
                                     "height": {
                                         "type": "JSON_LITERAL",
@@ -1780,13 +1746,11 @@
                                     },
                                     "sources": {
                                         "type": "JSON_LITERAL",
-                                        "value": [
-                                            
-                                        ]
+                                        "value": []
                                     },
                                     "src": {
                                         "type": "JSON_LITERAL",
-                                        "value": "/x_snc_contact_ma_0.team_contact_header.svg"
+                                        "value": "aes_resources_documentation.svg"
                                     },
                                     "width": {
                                         "type": "JSON_LITERAL",
@@ -1804,6 +1768,7 @@
                                     {
                                         "element_id": "home_banner_Column_1",
                                         "styles": {
+                                            "height": "100%",
                                             "width": "100%"
                                         }
                                     },
@@ -1817,6 +1782,8 @@
                                 "root": null,
                                 "rules": null,
                                 "styles": {
+                                    "display": "flex",
+                                    "flex-direction": "row",
                                     "margin": "auto",
                                     "padding-left": "var(--now-scalable-space--xl)",
                                     "padding-top": "var(--now-scalable-space--xxl)"
@@ -1869,12 +1836,8 @@
                         {
                             "element_id": "home_banner",
                             "styles": {
-                                "height": "10rem",
+                                "height": "auto",
                                 "margin": "auto",
-                                "max-height": "",
-                                "max-width": "",
-                                "min-height": "",
-                                "min-width": "",
                                 "width": "100%"
                             }
                         }
@@ -1935,9 +1898,7 @@
         },
         "elementId": "main",
         "elementLabel": "Main",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "isHidden": {
             "type": "JSON_LITERAL",
             "value": null
@@ -1951,9 +1912,7 @@
                     },
                     "elementId": "Sidebar",
                     "elementLabel": "Sidebar",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": null
@@ -1967,9 +1926,7 @@
                                 },
                                 "elementId": "heading_8",
                                 "elementLabel": "Heading 8",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -2085,9 +2042,7 @@
                                     },
                                     "loadingItems": {
                                         "type": "JSON_LITERAL",
-                                        "value": [
-                                            
-                                        ]
+                                        "value": []
                                     },
                                     "overflow": {
                                         "type": "JSON_LITERAL",
@@ -2103,9 +2058,7 @@
                                     },
                                     "selectedItems": {
                                         "type": "JSON_LITERAL",
-                                        "value": [
-                                            
-                                        ]
+                                        "value": []
                                     },
                                     "showActionsOnHover": {
                                         "type": "JSON_LITERAL",
@@ -2195,9 +2148,7 @@
                     },
                     "elementId": "Content",
                     "elementLabel": "Content",
-                    "eventMappings": [
-                        
-                    ],
+                    "eventMappings": [],
                     "isHidden": {
                         "type": "JSON_LITERAL",
                         "value": false
@@ -2211,9 +2162,7 @@
                                 },
                                 "elementId": "Content_Heading",
                                 "elementLabel": "Content_Heading",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -2229,7 +2178,7 @@
                                         "value": {
                                             "code": null,
                                             "comment": "",
-                                            "message": "Welcome to the FAA Lessons-Learned System!"
+                                            "message": "Welcome to the Lessons-Learned System!"
                                         }
                                     },
                                     "level": {
@@ -2255,9 +2204,7 @@
                                 },
                                 "elementId": "rich_text_1",
                                 "elementLabel": "Rich text 1",
-                                "eventMappings": [
-                                    
-                                ],
+                                "eventMappings": [],
                                 "isHidden": {
                                     "type": "JSON_LITERAL",
                                     "value": null
@@ -2393,6 +2340,7 @@
                                 "root": null,
                                 "rules": null,
                                 "styles": {
+                                    "display": "flex",
                                     "flex-direction": "column",
                                     "padding-left": "var(--now-scalable-space--xl)",
                                     "padding-top": "var(--now-scalable-space--xl)"
@@ -2639,9 +2587,7 @@
         },
         "elementId": "evam_popular_articles",
         "elementLabel": "EVAM - Popular articles",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "evamDefinitionId": {
                 "type": "JSON_LITERAL",
@@ -2673,9 +2619,7 @@
         },
         "elementId": "look_up_record_1",
         "elementLabel": "Look Up Record 1",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "recordId": {
                 "binding": {
@@ -2711,9 +2655,7 @@
         },
         "elementId": "glide_form_1",
         "elementLabel": "Glide Form 1",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {
             "actionConfigId": {
                 "type": "JSON_LITERAL",
@@ -2910,9 +2852,7 @@
         },
         "elementId": "update_record_1",
         "elementLabel": "Update Record 1",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {},
         "readEvaluationMode": "EXPLICIT"
     },
@@ -2924,9 +2864,7 @@
         "dependencies": {},
         "elementId": "topic_list",
         "elementLabel": "GetTopicList",
-        "eventMappings": [
-            
-        ],
+        "eventMappings": [],
         "inputValues": {},
         "readEvaluationMode": "EAGER"
     }
@@ -3313,7 +3251,7 @@
   "message" : "Topics",
   "comment" : ""
 }, {
-  "message" : "Welcome to the FAA Lessons-Learned System!",
+  "message" : "Welcome to the Lessons-Learned System!",
   "comment" : ""
 }, {
   "message" : "You have approved the following task",
@@ -3439,14 +3377,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2024-04-16 12:40:14</sys_created_on>
         <sys_id>56138c2a15254e10bc1134a0fbe5c4dd</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>73</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
         <sys_update_name>sys_ux_macroponent_56138c2a15254e10bc1134a0fbe5c4dd</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-05-21 19:16:40</sys_updated_on>
+        <sys_updated_on>2025-03-10 21:02:40</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=56138c2a15254e10bc1134a0fbe5c4dd"/>
 </record_update>

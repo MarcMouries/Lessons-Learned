@@ -13,16 +13,16 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>56138c2a06254e100ce85bda3c6a29b6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>chrome_footer</sys_name>
         <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
         <sys_update_name>sys_ux_page_property_56138c2a06254e100ce85bda3c6a29b6</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2024-04-17 16:36:11</sys_updated_on>
+        <sys_updated_on>2025-03-10 20:53:42</sys_updated_on>
         <type>json</type>
-        <unique_name>x_snc_llbp.1e138c2a93254e10df5f3ca47aba1092.root.chrome_footer</unique_name>
+        <unique_name>x_snc_llbp.1e138c2a93254e10df5f3ca47aba1092.root.global.chrome_footer</unique_name>
         <value>{&#13;
     "public_page": {&#13;
         "enable_footer_topbar": false,&#13;
@@ -40,7 +40,7 @@
             "max_social_links_count": 7,&#13;
             "social_links": [],&#13;
             "enable_copyright_text": true,&#13;
-            "copyright_text": "© 2024 ServiceNow Inc. All rights reserved."&#13;
+            "copyright_text": "© 2025 ServiceNow Inc. All rights reserved."&#13;
         }&#13;
     }&#13;
 }</value>
