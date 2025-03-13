@@ -1523,6 +1523,7 @@
                                                                                             },
                                                                                             "isNonDestructive": false,
                                                                                             "overrides": null,
+                                                                                            "preset": null,
                                                                                             "propertyValues": {
                                                                                                 "hasNoMargin": {
                                                                                                     "type": "JSON_LITERAL",
@@ -1700,6 +1701,7 @@
                                                                                                                     },
                                                                                                                     "isNonDestructive": false,
                                                                                                                     "overrides": null,
+                                                                                                                    "preset": null,
                                                                                                                     "propertyValues": {
                                                                                                                         "hasNoMargin": {
                                                                                                                             "type": "JSON_LITERAL",
@@ -1719,7 +1721,7 @@
                                                                                                                         },
                                                                                                                         "variant": {
                                                                                                                             "type": "JSON_LITERAL",
-                                                                                                                            "value": "header-tertiary"
+                                                                                                                            "value": "title-primary"
                                                                                                                         },
                                                                                                                         "wontWrap": {
                                                                                                                             "type": "JSON_LITERAL",
@@ -2004,6 +2006,7 @@
                                                                                                                                             },
                                                                                                                                             "isNonDestructive": false,
                                                                                                                                             "overrides": null,
+                                                                                                                                            "preset": null,
                                                                                                                                             "propertyValues": {
                                                                                                                                                 "config": {
                                                                                                                                                     "type": "JSON_LITERAL",
@@ -2035,11 +2038,19 @@
                                                                                                                                                     "type": "JSON_LITERAL",
                                                                                                                                                     "value": []
                                                                                                                                                 },
+                                                                                                                                                "inRecordPageTab": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": false
+                                                                                                                                                },
                                                                                                                                                 "inUiBuilder": {
                                                                                                                                                     "type": "JSON_LITERAL",
                                                                                                                                                     "value": true
                                                                                                                                                 },
                                                                                                                                                 "isContextMenuHidden": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": false
+                                                                                                                                                },
+                                                                                                                                                "isFirstSectionTitleHidden": {
                                                                                                                                                     "type": "JSON_LITERAL",
                                                                                                                                                     "value": false
                                                                                                                                                 },
@@ -2063,6 +2074,34 @@
                                                                                                                                                     "type": "JSON_LITERAL",
                                                                                                                                                     "value": false
                                                                                                                                                 },
+                                                                                                                                                "isViewSectionHidden": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": false
+                                                                                                                                                },
+                                                                                                                                                "landmark": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": null
+                                                                                                                                                },
+                                                                                                                                                "nowDsDomainId": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": ""
+                                                                                                                                                },
+                                                                                                                                                "nowDsDomainScope": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": ""
+                                                                                                                                                },
+                                                                                                                                                "nowDsRecordId": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": ""
+                                                                                                                                                },
+                                                                                                                                                "nowDsRecordTable": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": ""
+                                                                                                                                                },
+                                                                                                                                                "recordMembers": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": []
+                                                                                                                                                },
                                                                                                                                                 "relatedLists": {
                                                                                                                                                     "type": "JSON_LITERAL",
                                                                                                                                                     "value": ""
@@ -2070,6 +2109,10 @@
                                                                                                                                                 "scrollableHost": {
                                                                                                                                                     "type": "JSON_LITERAL",
                                                                                                                                                     "value": null
+                                                                                                                                                },
+                                                                                                                                                "sectionHeadingLevel": {
+                                                                                                                                                    "type": "JSON_LITERAL",
+                                                                                                                                                    "value": "2"
                                                                                                                                                 },
                                                                                                                                                 "sections": {
                                                                                                                                                     "binding": {
@@ -3042,6 +3085,7 @@
                                                                                                                     },
                                                                                                                     "isNonDestructive": false,
                                                                                                                     "overrides": null,
+                                                                                                                    "preset": null,
                                                                                                                     "propertyValues": {
                                                                                                                         "configAria": {
                                                                                                                             "container": {},
@@ -3062,6 +3106,10 @@
                                                                                                                                 "comment": "",
                                                                                                                                 "message": "REMINDER"
                                                                                                                             }
+                                                                                                                        },
+                                                                                                                        "landmark": {
+                                                                                                                            "type": "JSON_LITERAL",
+                                                                                                                            "value": null
                                                                                                                         },
                                                                                                                         "size": {
                                                                                                                             "type": "JSON_LITERAL",
@@ -3135,7 +3183,7 @@
                                                                                                                                             "type": "JSON_LITERAL",
                                                                                                                                             "value": {
                                                                                                                                                 "propName": "recordTable",
-                                                                                                                                                "value": "x_snc_contact_ma_0_relationship_notes"
+                                                                                                                                                "value": "x_snc_llbp_feedback"
                                                                                                                                             }
                                                                                                                                         },
                                                                                                                                         "sysId": "32408b42ff7a10109046e490703bf176"
@@ -3154,7 +3202,7 @@
                                                                                                                                         "payload": {
                                                                                                                                             "type": "JSON_LITERAL",
                                                                                                                                             "value": {
-                                                                                                                                                "propName": "record",
+                                                                                                                                                "propName": "recordSysId",
                                                                                                                                                 "value": "-1"
                                                                                                                                             }
                                                                                                                                         },
@@ -3186,6 +3234,7 @@
                                                                                                                     },
                                                                                                                     "isNonDestructive": false,
                                                                                                                     "overrides": null,
+                                                                                                                    "preset": null,
                                                                                                                     "propertyValues": {
                                                                                                                         "configAria": {
                                                                                                                             "container": {},
@@ -3206,6 +3255,10 @@
                                                                                                                                 "comment": "",
                                                                                                                                 "message": "FEEDBACK"
                                                                                                                             }
+                                                                                                                        },
+                                                                                                                        "landmark": {
+                                                                                                                            "type": "JSON_LITERAL",
+                                                                                                                            "value": null
                                                                                                                         },
                                                                                                                         "size": {
                                                                                                                             "type": "JSON_LITERAL",
@@ -4872,18 +4925,19 @@
         "valueType": ""
     }
 ]</state_properties>
+        <style_config>{}</style_config>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>Marc.Mouries</sys_created_by>
         <sys_created_on>2024-04-17 02:17:55</sys_created_on>
         <sys_id>d84eba2a936d8e10df5f3ca47aba1074</sys_id>
-        <sys_mod_count>45</sys_mod_count>
+        <sys_mod_count>48</sys_mod_count>
         <sys_name>Lesson Learned Default</sys_name>
         <sys_package display_value="Lessons Learned &amp; Best Practices" source="x_snc_llbp">c18d41a1936d4610df5f3ca47aba10d0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Lessons Learned &amp; Best Practices">c18d41a1936d4610df5f3ca47aba10d0</sys_scope>
         <sys_update_name>sys_ux_macroponent_d84eba2a936d8e10df5f3ca47aba1074</sys_update_name>
         <sys_updated_by>Marc.Mouries</sys_updated_by>
-        <sys_updated_on>2025-03-10 20:57:11</sys_updated_on>
+        <sys_updated_on>2025-03-11 19:38:52</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=d84eba2a936d8e10df5f3ca47aba1074"/>
 </record_update>

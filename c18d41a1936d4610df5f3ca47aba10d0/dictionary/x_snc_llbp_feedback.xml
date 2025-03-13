@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ea933794fb98a2107b04ff4655efdc2c" label="feedback" max_length="40" name="x_snc_llbp_feedback" type="collection">
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element label="Lesson" max_length="32" name="lesson" reference="x_snc_llbp_lesson_learned" type="reference"/>
+        <element label="Comments" max_length="8000" name="comments" type="string"/>
+        <element choice="3" label="Useful" max_length="40" name="useful" type="boolean">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="lesson"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
